@@ -7,3 +7,4 @@ color = input()
 ascii_art = pyfiglet.figlet_format(msg)
 colored_ascii = colored(ascii_art, color ="red")
 print(ascii_art)
+#this code helps to print ascii art in terminal 
