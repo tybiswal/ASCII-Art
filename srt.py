@@ -1,10 +1,10 @@
-#run it 
-#python3 -m pip install pyfiglet
+# This code helps to print ascii art in terminal
+
 import pyfiglet
 from termcolor import colored
-msg = input("What would you like to print")
-color = input()
+
+msg = input("What word would you like to print in ASCII?: ")
 ascii_art = pyfiglet.figlet_format(msg)
-colored_ascii = colored(ascii_art, color ="red")
+# colored_ascii = colored(ascii_art, color ="red")
 print(ascii_art)
-#this code helps to print ascii art in terminal 
+
